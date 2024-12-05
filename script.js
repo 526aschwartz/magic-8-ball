@@ -20,28 +20,35 @@ function shakeMagic8Ball() {
     switch (randomNumber) {
         case 0:
             eightBall = 'It is certain'
-            imageChoice = ''
-            break;
+            imageChoice = 'imgs/smile.png'
+            break; 
         case 1:
             eightBall = 'It is decidedly so'
+            imageChoice = 'imgs/smile.png'
             break;
         case 2:
             eightBall = 'Reply hazy try again'
+            imageChoice = 'imgs/Sad-face.png'
             break;
         case 3:
             eightBall = 'Cannot predict now'
+            imageChoice = 'imgs/Sad-face.png'
             break;
         case 4:
             eightBall = 'Do not count on it'
+            imageChoice = 'imgs/Sad-face.png'
             break;
         case 5:
             eightBall = 'My sources say no'
+            imageChoice = 'imgs/Sad-face.png'
             break;
         case 6:
             eightBall = 'Outlook not so good'
+            imageChoice = 'imgs/Sad-face.png'
             break;
         case 7:
             eightBall = 'Signs point to yes'
+            imageChoice = 'imgs/smile.png'
         default:
             console.log(`There appears to be a problem ${userName}! Please contact nine bal services.`)
     }

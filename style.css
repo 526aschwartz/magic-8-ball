@@ -1,0 +1,11 @@
+body {
+background-color: rgb(167, 241, 241);
+}
+
+h1 {
+    font-family: "curve", serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 75x;
+    padding-top: 5px;
+}
