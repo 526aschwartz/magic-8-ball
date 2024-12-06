@@ -6,6 +6,24 @@ h1 {
     font-family: "curve", serif;
     font-weight: 600;
     font-style: normal;
-    font-size: 75x;
+    font-size: 85px;
     padding-top: 5px;
+}
+
+.btn {
+    background-color: plum;
+    border-radius: 3px;
+    border: solid 3px white;
+}
+
+.btn :hover {
+    background-color: white;
+    border-radius: 3px;
+    border: solid 3px plum;
+}
+
+p {
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+    font-size: 40px;
 }
